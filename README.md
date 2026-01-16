@@ -140,7 +140,7 @@ The pretrained model can be found here at this [google drive](https://drive.goog
     if you dont want to convert use `--not-convert` 
         
 2. Train model
-    1. use `train.py` to fine tune. checkout the [train.py](https://github.com/topdev22/A-Hackers-AI-Voice-Assistant/blob/master/VoiceAssistant/speechrecognition/neuralnet/train.py#L115) argparse for other arguments
+    1. use `train.py` to fine tune. checkout the [train.py](https://github.com/topdev22/AI_voice_assistant/blob/master/VoiceAssistant/speechrecognition/neuralnet/train.py#L115) argparse for other arguments
     ```
        python train.py --train_file /path/to/train/json --valid_file /path/to/valid/json --load_model_from /path/to/pretrain/speechrecognition.ckpt
     ```
